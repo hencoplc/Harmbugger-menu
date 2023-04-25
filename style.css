@@ -23,6 +23,7 @@ border: 3px solid white;
 margin-top: 20px;
 margin-left: 20px;
 
+
 }
 
 .menu-btn_burger {
@@ -31,6 +32,9 @@ height: 6px;
 background-color: white;
 border-radius: 5px;
 transition: all .5s ease-in-out ;
+position: absolute;
+	z-index: 10;
+
 
 }
 .menu-btn_burger::before,
@@ -53,3 +57,21 @@ transition: all .5s ease-in-out ;
 
     transform: translateY(16px);
 }
+.menu-btn_burger{
+
+transform: rotate(45deg);
+} 
+
+.menu-btn_burger::before {
+
+    transform: rotate(90deg);
+	top: 0px;
+}
+ .menu-btn_burger::after {
+    
+    display: none;
+}
+.menu-btn_burger {
+
+    
+ }
